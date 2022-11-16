@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -77,8 +77,8 @@ body {
 }
 
 /*
-    Main Content
-  */
+  Main Content
+*/
 
 main {
   padding: 32px;
@@ -95,8 +95,8 @@ main {
 }
 
 /*
-    Movies
-  */
+  Movies
+*/
 
 .movies {
   display: grid;
@@ -106,8 +106,8 @@ main {
 }
 
 /*
-    Movie Item
-  */
+  Movie Item
+*/
 
 .movie-item {
   width: 100%;
@@ -134,10 +134,7 @@ main {
   color: white;
 }
 
-.movie-item
-  .movie-item__header
-  .movie-item__header__rating
-  .movie-item__header__rating__score {
+.movie-item .movie-item__header .movie-item__header__rating .movie-item__header__rating__score {
   margin-left: 10px;
 }
 
@@ -163,8 +160,8 @@ main {
 }
 
 /*
-    Movie
-  */
+  Movie
+*/
 
 .movie {
   margin: 0 auto;
@@ -184,29 +181,10 @@ main {
   margin: 8px 0;
 }
 
-/*
-  Like
-  */
 
-.like {
-  width: 55px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #db0000;
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  border-radius: 50%;
-  border: 0;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-}
 /*
-    Footer
-  */
+  Footer
+*/
 
 footer {
   padding: 16px;
@@ -220,6 +198,8 @@ footer #footerTools {
 }
 
 footer p {
+  margin-top: 16px;
+
   text-align: center;
   color: #aaaaaa;
 }
@@ -230,30 +210,53 @@ footer p a {
 }
 
 /*
+  Like
+*/
+
+.like {
+  font-size: 18px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #db0000;
+  color: white;
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
   Button
 */
 
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #db0000;
+  background-color: #DB0000;
   border: 1px solid #770000;
   border-radius: 4px;
-
+ 
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
-
+ 
   cursor: pointer;
-  transition: 0.15s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #db0000bb;
+  background-color: #DB0000BB;
 }
+
 .btn:active {
-  background-color: #db0000dd;
+  background-color: #DB0000DD;
 }
+
 .btn:focus-visible {
-  outline: 3px solid #db000055;
+  outline: 3px solid #DB000055;
 }
